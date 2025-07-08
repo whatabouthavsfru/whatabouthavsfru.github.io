@@ -91,18 +91,22 @@ sass:
   style: compressed
   
 defaults:
-  # _posts
   - scope:
       path: "assets/css"
-      type: posts
     values:
       layout: null
+
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
-  # _pages
+
   - scope:
       path: "_pages"
       type: pages
