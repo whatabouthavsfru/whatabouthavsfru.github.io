@@ -1,0 +1,20 @@
+---
+---
+
+@import "minimal-mistakes"; // Laddar basstilar
+
+// 🎨 Egna tillägg eller ändringar:
+body {
+  background-color: #fefdfb;
+  color: #333;
+}
+
+a {
+  color: #e63946;
+}
+
+.site-title {
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+  color: #1d3557;
+}
