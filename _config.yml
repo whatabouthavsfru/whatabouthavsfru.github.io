@@ -90,10 +90,10 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "assets/css"
       type: posts
     values:
-      layout: single
+      layout: null
       author_profile: true
       read_time: true
       comments: true
